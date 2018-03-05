@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.androiddownloadmanager.MainActivity">
+
+    <EditText
+        android:id="@+id/eturl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:focusable="false"
+        android:ems="10"
+        android:hint="@string/file_url"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/eturl"
+        android:layout_marginTop="10dp"
+        android:entries="@array/urls"
+        android:layout_above="@+id/btndownload"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btndownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/download_file"/>
+
+</RelativeLayout>

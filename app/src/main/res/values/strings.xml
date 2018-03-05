@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AndroidDownloadManager</string>
+    <string name="download_file">Download File</string>
+    <string name="file_url">FILE URL</string>
+
+    //String Arrays
+    <string-array name="urls">
+        <item>File 1</item>
+    </string-array>
+
+    <string-array name="fileurls">
+        <item>https://media.ed.edmunds-media.com/toyota/camry/2018/oem/2018_toyota_camry_sedan_xle_fq_oem_1_717.jpg</item>
+    </string-array>
+
+</resources>
